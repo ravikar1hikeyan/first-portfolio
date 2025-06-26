@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Me</title>
+    <link rel="icon" href="icons/shield.png">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #66bde6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            color: white;
+            text-align: center;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .intro img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 1rem;
+        }
+
+        .intro p {
+            font-size: 1.2rem;
+            color: #555;
+            text-align: center;
+            max-width: 800px;
+        }
+
+        .skills {
+
+            align-items: center;
+            margin-top: 2rem;
+        }
+
+        .skills h2 {
+            align-items: center;
+            color: #333;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            background-color: #c55f5f;
+            margin: 0.5rem 0;
+            padding: 0.8rem;
+            border-radius: 5px;
+        }
+
+        .skill-rating {
+            display: inline-block;
+            font-size: 1.2rem;
+            color: #ff9900;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="achive.html">Achivements</a></li>
+            <li><a href="images/resume.pdf">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <section>
+        <!-- intro -->
+        <div class="intro">
+            <img src="images/karthi.jpg" alt="Your Name">
+            <p>Name: KARTHIKEYAN R<br> Father’s Name: RAVICHANDRAN M<br>Date of Birth: 08/09/2003 </p>
+            <br>
+            <center>
+                <hr>
+                <h2>Address</h2>
+                <p>1/613 Bharathiyar street, Poolangudi colony, Tiruchirappalli – 620025.</p>
+                <br>
+                <hr>
+            </center>
+        </div>
+
+        <!--academic profile-->
+        <div class="academic">
+            <center>
+                <h2>Academic Profile</h2>
+                <table>
+
+                    <theader>
+                        <tr>
+                            <th>School / College</th>
+                            <th>course</th>
+                            <th>percentage</th>
+                        </tr>
+                    </theader>
+                    <tbody>
+                        <tr>
+                            <td> Mookambigai College of Engineering , Keeranur</td>
+                            <td>B.Tech in Information Technology | 2025</td>
+                            <td>CGPA: 8/10</td>
+                        </tr>
+                        <tr>
+                            <td>Boiler Plant Boys Hr. Sec. School Kailasapuram - Tiruchirappalli
+                            </td>
+                            <td>Higher Secondary – 12th class | 2021</td>
+                            <td>Percentage: 91.5%</td>
+                        </tr>
+                        <tr>
+                            <td>Government High School Poolangudi - Tiruchirappalli</td>
+                            <td>Secondary – 10th class | 2019</td>
+                            <td>Percentage: 90%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+            </center>
+        </div>
+
+        <!---->
+
+
+
+        <div class="skills">
+            <center>
+                <h2>Skills</h2>
+            </center>
+            <ul>
+                <li>c++ <span class="skill-rating">⭐⭐⭐⭐</span></li>
+                <li>Python<span class="skill-rating">⭐⭐⭐⭐</span></li>
+                <li>HTML5 <span class="skill-rating">⭐⭐⭐⭐</span></li>
+                <li>CSS3 <span class="skill-rating">⭐⭐⭐⭐</span></li>
+                <li>JavaScript <span class="skill-rating">⭐⭐⭐⭐</span></li>
+                <li>Figma <span class="skill-rating">⭐⭐⭐</span></li>
+                <li>SQL<span class="skill-rating">⭐⭐⭐</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/8903-karthikeyan-r" style="color: #fff;">LinkedIn</a>
+            / <a href="https://github.com/Karthikeyan8903" style="color: #fff;">GitHub</a> / <a
+                href="https://www.instagram.com/mr_st0neheart/#" style="color: #fff;">Instagram</a>
+            / <a href="tel:8870957957" style="color: #fff;">Call</a> / <a href="mailto:rkarthikeyan8903@gmail.com"
+                style="color: #fff;">mail</a></p>
+    </footer>
+</body>
+
+</html>
